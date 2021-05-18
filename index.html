@@ -1,0 +1,68 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=number], select, textarea {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=text], select, textarea {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <form action="https://api.whatsapp.com/send?">
+
+    <label for="fname">&#160; &#9743 Number</label>
+<center>
+    <input type="number" id="fname" name="phone"value="91" placeholder="Enter Country Code & Number">
+</center>
+    <label for="subject">&#160;&#160;&#160;Message</label>
+<center>
+    <textarea id="subject" name="text" placeholder="Write something.." style="height:75px"></textarea>
+</center>
+    &#160;&#160;&#160;<input type="submit" value="Submit">
+  </form>
+</div>
+<br>
+<br>
+
+<body bgcolor="#f2f2f2">
+</body>
+
